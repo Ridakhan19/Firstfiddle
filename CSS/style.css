@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .weblogo{
+      width: 65px;
+  }
+  .moblogo{
+    display: none;
+  }
+  .navbar{
+      background: #00000082!important;
+  }
+  .navbar-nav li{
+      padding: 0 10px;
+  }
+  .navbar-nav li a{
+      color: #fff!important;
+      font-weight: lighter;
+      font-size: 15px;
+      text-transform: uppercase;
+      
+  }
+  .navbar-nav li a:hover{
+    background: orange;
+    transition: .3s;
+  }
+
+
+.a{
+    padding-top: 20px;
+   /* font-family: 'prague';*/
+    letter-spacing: 3px;
+
+    
+}
+.b{
+    line-height: 40px;
+    word-spacing: 3px;
+}
+.c{
+    background-image: url('../Image/firstfiddle.jpg');
+    /*width: 100%;*/
+    
+    margin-top: 70px;
+    height: 600px;
+}
+.d{
+
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: center;
+}
+.e{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    line-height: 35px; 
+    font-size: 16px;
+    text-align: center;
+       
+}
+.cc{
+    background-image: url('../Image/firstfiddle2.jpg');
+/*width: 100%;*/
+
+margin-top: 75px;
+height: 600px;
+}
+@media (max-width: 768px) {
+    .image {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .moblogo{
+      display: block;
+    }
+    .weblogo{
+      display: none;
+    }
+    .navbar{
+      background: #fbac1b!important;
+  }
+      /* .navbar-nav li a{
+        margin-bottom: ;
+      } */
+  }
+
